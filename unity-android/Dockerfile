@@ -10,6 +10,7 @@ RUN apt-get install -y make
 RUN apt-get install -y libgmp-dev
 RUN apt-get install -y ruby-full && gem install fastlane -NV
 RUN apt-get install -y jq
+RUN apt-get install -y curl
 
 RUN useradd -ms /bin/bash circleci
 USER circleci
