@@ -10,6 +10,7 @@ RUN apt-get install -y ruby && gem install fastlane -NV
 RUN apt-get install jq
 RUN apt-get install curl
 RUN apt-get install -y openjdk-8-jdk
+RUN apt-get install -y yarn
 
 USER circleci
 
